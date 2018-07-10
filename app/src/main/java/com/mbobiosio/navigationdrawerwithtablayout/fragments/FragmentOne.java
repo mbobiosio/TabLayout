@@ -82,7 +82,7 @@ public class FragmentOne extends Fragment {
 
     private class FragmentsAdapter extends FragmentStatePagerAdapter {
 
-        /*The better way to do this getting your titles as arrays*/
+        /*This is a better way to set Tab Titles. Get titles from String Array.*/
         private String title[] = getActivity().getResources().getStringArray(R.array.tab_titles);
 
         public FragmentsAdapter(FragmentManager supportFragmentManager, Context context) {
